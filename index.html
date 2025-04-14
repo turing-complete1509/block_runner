@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pixel Runner</title>
+
+  <!--CSS File-->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game_container">
+    <div class="stats_display">
+      <div>Score: <span id="score">0</span></div>
+      <div>High Score: <span id="highScore">0</span></div>
+      <div>Level: <span id="level">1</span></div>
+    </div>
+    <div class="game level_1">
+      <div id="player"></div>
+      <div id="ground"></div>
+    </div>
+  </div>
+  <div id="startMessage">Press ENTER to Start</div>
+
+  <!--Game Sounds-->
+  <audio id="jumpSound" src="jump.mp3"></audio>
+  <audio id="hitSound" src="hit.mp3"></audio>
+
+  <!--JS File-->
+  <script src="script.js"></script>
+</body>
+</html>
